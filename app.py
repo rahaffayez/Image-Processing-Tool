@@ -5,7 +5,7 @@ from PIL import Image
 import io
 import base64
 
-# Image processing functions (same as before)
+# Image processing functions 
 def smooth_image(image):
     return cv2.blur(image, (5, 5))
 
